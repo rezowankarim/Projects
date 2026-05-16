@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazle Rezowan Karim | AI & Utility Hub</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --accent: #3b82f6;
+            --text-main: #f1f5f9;
+            --text-dim: #94a3b8;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+            color: var(--text-main);
+            margin: 0;
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .header { text-align: center; margin-bottom: 60px; }
+        .header h1 { font-size: 42px; margin-bottom: 10px; font-weight: 800; background: linear-gradient(to right, #60a5fa, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .header p { color: var(--text-dim); font-size: 18px; letter-spacing: 1px; text-transform: uppercase; }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            padding: 30px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--accent);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .icon { font-size: 36px; margin-bottom: 20px; }
+        .card h3 { font-size: 22px; margin: 0 0 12px 0; color: #fff; }
+        .card p { font-size: 14px; color: var(--text-dim); line-height: 1.6; margin-bottom: 25px; flex-grow: 1; }
+
+        .btn {
+            align-self: flex-start;
+            padding: 10px 20px;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid var(--accent);
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--accent);
+            transition: 0.3s;
+        }
+
+        .card:hover .btn { background: var(--accent); color: white; }
+
+        footer { margin-top: 80px; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 30px; width: 100%; max-width: 600px; }
+        .footer-name { font-weight: 700; color: #fff; display: block; margin-bottom: 5px; font-size: 16px; }
+        .footer-text { color: var(--text-dim); font-size: 13px; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Fazle Rezowan Karim</h1>
+    <p>Utility Hub</p>
+</div>
+
+<div class="container">
+    <a href="https://rezowankarim.github.io/AnyVideoDownloader/" class="card" target="_blank">
+        <div class="icon">🎥</div>
+        <h3>Universal Downloader</h3>
+        <p>ফেসবুক, টিকটক এবং ইউটিউব ভিডিও ডাউনলোডের অল-ইন-ওয়ান এআই টুল।</p>
+        <div class="btn">Launch Tool</div>
+    </a>
+
+    <a href="https://rezowankarim.github.io/youtube-transcriber/" class="card" target="_blank">
+        <div class="icon">📝</div>
+        <h3>YouTube Transcriber</h3>
+        <p>ভিডিও থেকে স্বয়ংক্রিয়ভাবে টেক্সট সংগ্রহ এবং ট্রান্সক্রিপশন সার্ভিস।</p>
+        <div class="btn">Launch Tool</div>
+    </a>
+
+    <a href="https://rezowankarim.github.io/teleprompterVidRec/" class="card" target="_blank">
+        <div class="icon">🎤</div>
+        <h3>Pro Teleprompter</h3>
+        <p>নয়েজ ফ্রি অডিও এবং হাই-কোয়ালিটি ভিডিও রেকর্ডিং সলিউশন।</p>
+        <div class="btn">Launch Tool</div>
+    </a>
+
+    <a href="https://rezowankarim.github.io/teleprompterVidCam/" class="card" target="_blank">
+        <div class="icon">📹</div>
+        <h3>Cam Teleprompter</h3>
+        <p>ক্যামেরা লেন্সের সামনে স্ক্রিপ্ট দেখে ভিডিও তৈরির স্মার্ট সুবিধা।</p>
+        <div class="btn">Launch Tool</div>
+    </a>
+
+    <a href="https://rezowankarim.github.io/BDNamaj/" class="card" target="_blank">
+        <div class="icon">🕌</div>
+        <h3>নামাজের সময় (বিভাগ)</h3>
+        <p>বাংলাদেশের বিভাগ অনুযায়ী নামাজের সঠিক এবং আপডেট সময়সূচী।</p>
+        <div class="btn">View Schedule</div>
+    </a>
+
+    <a href="https://rezowankarim.github.io/BDNamaz/" class="card" target="_blank">
+        <div class="icon">🕋</div>
+        <h3>নামাজের সময় (জেলা)</h3>
+        <p>৬৪ জেলার জন্য নামাজের ওয়াক্ত জানার অটোমেটেড স্মার্ট টুল।</p>
+        <div class="btn">View Schedule</div>
+    </a>
+
+    <a href="https://rezowankarim.github.io/AgeCalculator/" class="card" target="_blank">
+        <div class="icon">📅</div>
+        <h3>Age Calculator</h3>
+        <p>যেকোনো তারিখের ব্যবধান এবং সঠিক বয়স বের করার ক্যালকুলেটর।</p>
+        <div class="btn">Calculate Now</div>
+    </a>
+
+    <a href="https://rezowankarim.github.io/DeathCalculator/" class="card" target="_blank">
+        <div class="icon">⏳</div>
+        <h3>Life/Anniversary Calc</h3>
+        <p>স্মৃতি বা বিশেষ দিন হিসাব রাখার জন্য অ্যাডভান্সড ক্যালকুলেটর।</p>
+        <div class="btn">Calculate Now</div>
+    </a>
+
+    <a href="https://rezowankarim.github.io/DinoRun/" class="card" target="_blank">
+        <div class="icon">🦖</div>
+        <h3>Modern Dino Run</h3>
+        <p>আপনার অবসরের জন্য আধুনিক গ্রাফিক্সের ডাইনো রান গেম।</p>
+        <div class="btn">Play Now</div>
+    </a>
+</div>
+
+<footer>
+    <span class="footer-name">Fazle Rezowan Karim</span>
+    <span class="footer-text">&copy; 2026 | All Rights Reserved | Built with AI Intelligence</span>
+</footer>
+
+</body>
+</html>
